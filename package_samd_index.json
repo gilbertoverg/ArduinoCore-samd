@@ -1,0 +1,65 @@
+{
+  "packages": [
+    {
+      "name": "arduino",
+      "maintainer": "Arduino Betatesting",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+) - Pre-release",
+          "architecture": "samd",
+          "version": "1.8.13",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/1.8.13/core-samd-1.8.13.tar.bz2",
+          "archiveFileName": "core-samd-1.8.13.tar.bz2",
+          "checksum": "SHA-256:0c284106e03112c082ac76cf673a9f8e4c40d29f78c9349311c953c031548314",
+          "size": "1034378",
+          "boards": [
+            { "name": "Arduino Zero" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}

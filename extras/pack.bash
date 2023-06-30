@@ -43,4 +43,4 @@ cat extras/json.template |
 sed "s/%%VERSION%%/${VERSION}/" |
 sed "s/%%FILENAME%%/${FILENAME}/" |
 sed "s/%%CHECKSUM%%/${CHKSUM}/" |
-sed "s/%%SIZE%%/${SIZE}/" > package_${CORE_NAME}_${VERSION}_index.json
+sed "s/%%SIZE%%/${SIZE}/" > package_${CORE_NAME}_index.json
