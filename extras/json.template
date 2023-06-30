@@ -17,26 +17,12 @@
           "help": {
             "online": "http://www.arduino.cc/en/Reference/HomePage"
           },
-          "url": "http://downloads.arduino.cc/cores/staging/%%FILENAME%%",
+          "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/%%VERSION%%/%%FILENAME%%",
           "archiveFileName": "%%FILENAME%%",
           "checksum": "SHA-256:%%CHECKSUM%%",
           "size": "%%SIZE%%",
           "boards": [
-            { "name": "Arduino MKR WiFi 1010" },
-            { "name": "Arduino Zero" },
-            { "name": "Arduino MKR 1000" },
-            { "name": "Arduino MKR Zero" },
-            { "name": "Arduino MKR FOX 1200" },
-            { "name": "Arduino MKR WAN 1300" },
-            { "name": "Arduino MKR WAN 1310" },
-            { "name": "Arduino MKR GSM 1400" },
-            { "name": "Arduino MKR NB 1500" },
-            { "name": "Arduino MKR Vidor 4000" },
-            { "name": "Arduino Nano 33 IoT" },
-            { "name": "Arduino M0 Pro" },
-            { "name": "Arduino M0" },
-            { "name": "Arduino Tian" },
-            { "name": "Adafruit Circuit Playground Express" }
+            { "name": "Arduino Zero" }
           ],
           "toolsDependencies": [
             {
