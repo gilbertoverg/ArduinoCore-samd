@@ -10,17 +10,17 @@
       },
       "platforms": [
         {
-          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+) - Pre-release",
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
           "version": "1.8.13",
-          "category": "Arduino",
+          "category": "custom",
           "help": {
-            "online": "http://www.arduino.cc/en/Reference/HomePage"
+            "online": ""
           },
           "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/1.8.13/core-samd-1.8.13.tar.bz2",
           "archiveFileName": "core-samd-1.8.13.tar.bz2",
-          "checksum": "SHA-256:0c284106e03112c082ac76cf673a9f8e4c40d29f78c9349311c953c031548314",
-          "size": "1034378",
+          "checksum": "SHA-256:b4ce28b36db4da5e452d1f5a72db17b8f257a10e44f7e7995b4d796ac9fa4d8d",
+          "size": "1034355",
           "boards": [
             { "name": "Arduino Zero" }
           ],

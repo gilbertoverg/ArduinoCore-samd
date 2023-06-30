@@ -10,12 +10,12 @@
       },
       "platforms": [
         {
-          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+) - Pre-release",
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
           "version": "%%VERSION%%",
-          "category": "Arduino",
+          "category": "custom",
           "help": {
-            "online": "http://www.arduino.cc/en/Reference/HomePage"
+            "online": ""
           },
           "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/%%VERSION%%/%%FILENAME%%",
           "archiveFileName": "%%FILENAME%%",
