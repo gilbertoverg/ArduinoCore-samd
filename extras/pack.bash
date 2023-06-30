@@ -31,7 +31,7 @@ rm -f *.tar.bz2
 rm -f *.json
 
 cd ..
-tar --exclude=extras/** --exclude=.git* -cjhf $FILENAME $FOLDERNAME
+tar --exclude=extras/** --exclude=.git* --exclude=.* --disable-copyfile -cjhf $FILENAME $FOLDERNAME
 cd -
 
 mv ../$FILENAME .

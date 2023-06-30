@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Custom Zero",
+      "name": "custom",
       "maintainer": "Gilberto",
       "websiteURL": "https://github.com/gilbertoverg",
       "email": "",
@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/1.8.13/core-samd-1.8.13.tar.bz2",
           "archiveFileName": "core-samd-1.8.13.tar.bz2",
-          "checksum": "SHA-256:84decd107d7ef05a0a77fd89438ead82e45531648ff3bea3777ae83d6835f1b4",
-          "size": "1049908",
+          "checksum": "SHA-256:a126a07a9b75ff4221895989a6cdd2c5064549ae7c82bf0dc491e9f7b2ffdf02",
+          "size": "1046371",
           "boards": [
             { "name": "Arduino Zero" }
           ],
