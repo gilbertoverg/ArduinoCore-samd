@@ -2,11 +2,11 @@
   "packages": [
     {
       "name": "custom",
-      "maintainer": "Arduino Betatesting",
-      "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "maintainer": "Gilberto",
+      "websiteURL": "https://github.com/gilbertoverg",
+      "email": "",
       "help": {
-        "online": "http://www.arduino.cc/en/Reference/HomePage"
+        "online": ""
       },
       "platforms": [
         {
@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/1.8.13/core-samd-1.8.13.tar.bz2",
           "archiveFileName": "core-samd-1.8.13.tar.bz2",
-          "checksum": "SHA-256:c314004ef5ba1a60f52913180614b73d70a674dfd24ad7d482fd31eaa4110e70",
-          "size": "1033498",
+          "checksum": "SHA-256:3c1e78387097156db5d893ba4127eac7c3792718e7e0bf8cf4aa76404a7d4b0d",
+          "size": "1034571",
           "boards": [
             { "name": "Arduino Zero" }
           ],

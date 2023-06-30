@@ -2,11 +2,11 @@
   "packages": [
     {
       "name": "custom",
-      "maintainer": "Arduino Betatesting",
-      "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "maintainer": "Gilberto",
+      "websiteURL": "https://github.com/gilbertoverg",
+      "email": "",
       "help": {
-        "online": "http://www.arduino.cc/en/Reference/HomePage"
+        "online": ""
       },
       "platforms": [
         {
