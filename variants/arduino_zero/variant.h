@@ -196,9 +196,6 @@ extern SERCOM sercom3;
 extern SERCOM sercom4;
 extern SERCOM sercom5;
 
-extern Uart Serial;
-extern Uart Serial1;
-
 #endif
 
 #ifdef __cplusplus
