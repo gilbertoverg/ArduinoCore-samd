@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/gilbertoverg/ArduinoCore-samd/releases/download/1.8.13/core-samd-1.8.13.tar.bz2",
           "archiveFileName": "core-samd-1.8.13.tar.bz2",
-          "checksum": "SHA-256:3c1e78387097156db5d893ba4127eac7c3792718e7e0bf8cf4aa76404a7d4b0d",
-          "size": "1034571",
+          "checksum": "SHA-256:23da8176aeaa2690ec4f761717081809a0673cba6fcf2ad36794c27bd869ee6a",
+          "size": "1049176",
           "boards": [
             { "name": "Arduino Zero" }
           ],
