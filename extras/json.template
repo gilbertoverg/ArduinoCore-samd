@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "arduino",
+      "name": "custom",
       "maintainer": "Arduino Betatesting",
       "websiteURL": "http://www.arduino.cc/",
       "email": "packages@arduino.cc",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "name": "Custom SAMD21",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "custom",
