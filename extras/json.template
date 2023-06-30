@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "custom",
+      "name": "Custom Zero",
       "maintainer": "Gilberto",
       "websiteURL": "https://github.com/gilbertoverg",
       "email": "",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Custom SAMD21",
+          "name": "Custom Zero",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "custom",
