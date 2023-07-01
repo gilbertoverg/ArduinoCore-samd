@@ -70,7 +70,7 @@ inline bool isAscii(int c)
 // Checks for a blank character, that is, a space or a tab.
 inline bool isWhitespace(int c)
 {
-  return ( c == '\t' || c == ' ');
+  return ( isblank (c) == 0 ? false : true);
 }
 
 
@@ -98,7 +98,7 @@ inline bool isGraph(int c)
 // Checks for a lower-case character.
 inline bool isLowerCase(int c)
 {
-  return ( c >= 'a' && c <= 'z' );
+  return (islower (c) == 0 ? false : true);
 }
 
 
@@ -113,7 +113,7 @@ inline bool isPrintable(int c)
 // or an alphanumeric character.
 inline bool isPunct(int c)
 {
-  return ( isPrintable(c) && !isSpace(c) && !isAlphaNumeric(c) );
+  return ( ispunct (c) == 0 ? false : true);
 }
 
 

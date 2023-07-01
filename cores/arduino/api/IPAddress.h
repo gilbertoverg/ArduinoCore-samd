@@ -96,7 +96,6 @@ public:
     IPAddress& operator=(const char *address);
 
     virtual size_t printTo(Print& p) const;
-    String toString() const;
 
     IPType type() { return _type; }
 
@@ -111,8 +110,6 @@ public:
 protected:
     bool fromString4(const char *address);
     bool fromString6(const char *address);
-    String toString4() const;
-    String toString6() const;
 };
 
 extern const IPAddress IN6ADDR_ANY;

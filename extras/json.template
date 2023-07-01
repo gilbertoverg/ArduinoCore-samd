@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Custom Zero",
+          "name": "Custom Arduino Zero",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "custom",
